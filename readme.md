@@ -16,7 +16,7 @@
 
 1. 板载用户按键例程
 
-## 硬件
+## 硬件介绍
 ### MCU
 STM32G431CBU6
 
@@ -45,6 +45,10 @@ RT9013-33GB
 1. POWER-LED（5V电源指示）
 
 2. USER-LED（连接到PB9，低电平亮起）
+
+## 板载资源
+### 引脚功能
+![pin_serial](./Images/pin_serial.png)
 
 ## 软件
 ### BOOTKEY工程
