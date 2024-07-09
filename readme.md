@@ -7,9 +7,9 @@
 ### HARDWARE
 收录硬件相关内容具体如下：
 
-1. 电路原理图（.PDF）
+1. [电路原理图（.PDF）](./Hardware/SCH_G431CBU6最小系统板_2024-07-07.pdf)
 2. PCB制板文件（.zip）
-3. 元件清单（.xlsx）
+3. [元件清单（.xlsx）](./Hardware/BOM_v1.0_RT9013-33GB_G431CBU6最小系统板_2024-07-07.xlsx)
 4. LCEDA_PRO工程文件（.epro）
 ### SOFTWARE
 包含示例代码：
