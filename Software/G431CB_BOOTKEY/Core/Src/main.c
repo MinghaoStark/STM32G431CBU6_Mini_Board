@@ -104,16 +104,19 @@ printf("interrupt ok\r\n");
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		if(key [0].s_flag ==1)
+		//printf("keys%d ok\r\n",key[0].s_flag);
+		//printf("keyl%d ok\r\n",key[0].l_flag);
+		if(key[0].s_flag ==1)
 		{
 			printf("key0s down\r\n");
-			key [0].s_flag =0;
+			key[0].s_flag =0;
 		}
-		if(key [0].l_flag ==1)
+		if(key[0].l_flag ==1)
 		{
 			printf("key0l down\r\n");
-			key [0].l_flag =0;
+			key[0].l_flag =0;
 		}
+		HAL_Delay(10);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
